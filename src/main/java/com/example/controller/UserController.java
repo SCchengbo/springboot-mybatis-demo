@@ -27,7 +27,7 @@ public class UserController {
 		List<User> users = service.findUser(name);
 		return users;
 	}
-
+	//springboot+mybatis 实现crud  以及多数据源的使用
 	@RequestMapping("/insertUser")
 	public String insertUser(String name, Integer age) {
 		userMapperTest01.insert(name, age);
