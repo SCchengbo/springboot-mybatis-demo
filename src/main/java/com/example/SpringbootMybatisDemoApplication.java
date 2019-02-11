@@ -7,9 +7,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 @SpringBootApplication
 @MapperScan({ "com.example.mpper" })
 public class SpringbootMybatisDemoApplication {
-
 	public static void main(String[] args) {
 		SpringApplication.run(SpringbootMybatisDemoApplication.class, args);
 	}
-
 }
